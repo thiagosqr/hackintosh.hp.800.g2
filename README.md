@@ -272,7 +272,7 @@ Finally boot using the **USB Stick** on OSX, run the latest multibeast and selec
 * `Quick Start > UEFI Boot Mode`
 * `Drivers > Audio > Universal > VoodooHDA v2.8.8`
 * `Drivers > Misc > FakeSMC*`
-* `Drivers > Network > IntelMausiEthernet v2.2.0` **AppleItelE1000e does not work for this mobo**
+* `Drivers > Network > IntelMausiEthernet v2.2.1d1` **AppleItelE1000e does not work for this mobo**
 * `Drivers > USB > Increase Max Port Limit` (USBInjectAll.kext)
 * `Bootloaders > Clover UEFI Boot Mode`
 * `Customize > Intel HD 530` 
