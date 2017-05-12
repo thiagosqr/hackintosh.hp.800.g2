@@ -163,7 +163,7 @@ select `UEFI Boot Mode` and create an installation **USB Stick**.
 
 I examined the configuration on the **USB stick** and it is the following:
 
-##### Clover `config.plist` #####
+##### Clover `config.plist` ##### Apresentou problemas
 
 * `Boot > darkware`
 * `Boot > dart=0` # this disabled the Vtd if enabled on OSX
@@ -270,7 +270,7 @@ Install OSX.
 Finally boot using the **USB Stick** on OSX, run the latest multibeast and select:
 
 * `Quick Start > UEFI Boot Mode`
-* `Drivers > Audio > Universal > VoodooHDA v2.8.8`
+* `Drivers > Audio > Universal > VoodooHDA v2.8.8` Install on /EFI/Clover/Kext/10.12 instead
 * `Drivers > Misc > FakeSMC*`
 * `Drivers > Network > IntelMausiEthernet v2.2.1d1` **AppleItelE1000e does not work for this mobo**
 * `Drivers > USB > Increase Max Port Limit` (USBInjectAll.kext)
